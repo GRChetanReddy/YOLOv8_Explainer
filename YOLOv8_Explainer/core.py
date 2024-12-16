@@ -13,7 +13,7 @@ from pytorch_grad_cam.utils.image import scale_cam_image, show_cam_on_image
 from ultralytics.nn.tasks import attempt_load_weights
 from ultralytics.utils.ops import non_max_suppression, xywh2xyxy
 
-from .utils import letterbox
+from utils import letterbox
 
 
 class ActivationsAndGradients:
